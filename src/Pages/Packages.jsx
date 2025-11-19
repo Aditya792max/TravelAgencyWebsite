@@ -1,4 +1,4 @@
-import './Styles/Packages.css';
+import '../Styles/Packages.css';
 
 function Packages() {
      return (

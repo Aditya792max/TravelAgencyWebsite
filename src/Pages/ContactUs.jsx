@@ -1,4 +1,4 @@
-import './Styles/ContactUs.css';
+import '../Styles/ContactUs.css';
 
 function ContactUs() {
      return (
