@@ -122,6 +122,13 @@
      gap: 20px;
 }
 
+.features :hover {
+     background: black;
+     color: white;
+     transition: all 0.3s ease;
+     cursor: pointer;
+}
+
 .feature-card {
      flex: 1;
      padding: 20px;
@@ -129,6 +136,13 @@
      border-radius: 16px;
      box-shadow: 0 3px 12px rgba(0, 0, 0, 0.08);
 }
+
+/* .feature-card :hover {
+     background: black;
+     color: white;
+     transition: all 0.3s ease;
+     cursor: pointer;
+} */
 
 /* DESTINATIONS */
 .destinations {
@@ -246,6 +260,23 @@
      gap: 20px;
      animation: infiniteScroll 25s linear infinite;
 }
+
+.textBox {
+     width: 300px;
+     height: 100px;
+     flex: 1;
+     padding: 20px;
+     background: #fff;
+     border-radius: 16px;
+     box-shadow: 0 3px 12px rgba(0, 0, 0, 0.12);
+     margin-bottom: 10px;
+}
+
+.name-rate :hover {
+     color: white;
+     background: black;
+}
+
 
 /* Scroll animation */
 @keyframes infiniteScroll {

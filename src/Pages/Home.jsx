@@ -18,7 +18,6 @@ function Home() {
                               Check out the ultimate global travel checklist with your travel
                               partner. Make unforgettable memories.
                          </p>
-
                          <div className="search-box">
                               <input type="text" placeholder="Where do you want to go?" />
                               <button>Search</button>
@@ -176,30 +175,73 @@ function Home() {
 
                {/* TESTIMONIALS */}
                < section className="testimonials" >
-                    <h2>Our Testimonials</h2>
+                    <h2>Reviews:</h2>
 
-                    <div className="test-grid">
-                         <div className="test-card">
-                              <h4>Johanna Deo</h4>
-                              <p>
-                                   “Yet preference connection unpleasant yet melancholy.”
-                              </p>
-                         </div>
+                    <div className="scroll-container">
+                         <div className="scroll-content">
 
-                         <div className="test-card">
-                              <h4>Guy Hawkins</h4>
-                              <p>
-                                   “Real experiences crafted with care and dedication.”
-                              </p>
-                         </div>
+                              <div className="name-rate">
+                                   <div className="textBox">
+                                        <h3>Arvind Makhija</h3>
+                                        <h3>3.3 <FcLike className="rating-icon" /></h3>
+                                        <h3>Loved the Experience!!!</h3>
 
-                         <div className="test-card">
-                              <h4>Robert Fox</h4>
-                              <p>
-                                   “Fantastic service and unforgettable adventures!”
-                              </p>
+                                   </div>
+                              </div>
+                              <div className="name-rate">
+                                   <div className="textBox">
+                                        <h3>Anand Bhanushali</h3>
+                                        <h3>4.5 <FcLike className="rating-icon" /></h3>
+                                        <h3>Amazing service and support!</h3>
+                                   </div>
+                              </div>
+                              <div className="name-rate">
+                                   <div className="textBox">
+                                        <h3>Arvind Banerjee</h3>
+                                        <h3>4.5 <FcLike className="rating-icon" /></h3>
+                                        <h3>Loved the pricing of the products and the service!</h3>
+                                   </div>
+                              </div>
+
+                              <div className="name-rate">
+                                   <div className="textBox">
+                                        <h3>Sunita Sharma</h3>
+                                        <h3>4.8 <FcLike className="rating-icon" /></h3>
+                                        <h3>Excellent customer service!</h3>
+                                   </div>
+                              </div>
+                              <div className="name-rate">
+                                   <div className="textBox">
+                                        <h3>Rajesh Kumar</h3>
+                                        <h3>4.7 <FcLike className="rating-icon" /></h3>
+                                        <h3>Great value for money!</h3>
+                                   </div>
+                              </div>
+                              <div className="name-rate">
+                                   <div className="textBox">
+                                        <h3>Priya Patel</h3>
+                                        <h3>4.9 <FcLike className="rating-icon" /></h3>
+                                        <h3>Exceptional travel experience!</h3>
+                                   </div>
+                              </div>
+                              <div className="name-rate">
+                                   <div className="textBox">
+                                        <h3>Manoj Gupta</h3>
+                                        <h3>4.6 <FcLike className="rating-icon" /></h3>
+                                        <h3>Reliable and trustworthy!</h3>
+                                   </div>
+                              </div>
+                              <div className="name-rate">
+                                   <div className="textBox">
+                                        <h3>Deepa Reddy</h3>
+                                        <h3>4.7 <FcLike className="rating-icon" /></h3>
+                                        <h3>Great attention to detail!</h3>
+                                   </div>
+                              </div>
                          </div>
                     </div>
+
+
                </section >
 
                {/* NEWSLETTER */}
