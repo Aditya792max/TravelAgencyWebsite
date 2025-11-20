@@ -7,6 +7,7 @@ import Gallery from './Pages/Gallery.jsx';
 import ContactUs from './Pages/ContactUs.jsx';
 import AboutUs from './Pages/AboutUs.jsx';
 
+
 function App() {
   return (
     <Router>

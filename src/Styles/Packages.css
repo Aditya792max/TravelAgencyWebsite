@@ -1,7 +1,3 @@
-h1 {
-     color: blue;
-     font-size: 2rem;
-     margin: 20px 0;
-     text-align: center;
-     font-family: 'Arial', sans-serif;
+.packages h1 {
+     color: skyblue;
 }

@@ -2,6 +2,7 @@ import { Link, Outlet } from 'react-router-dom';
 import './Header.css'
 import { FiHome, FiUser, FiMapPin, FiCamera, FiMail, FiBriefcase } from 'react-icons/fi';
 
+
 function Header() {
      return (
           <header>
@@ -13,7 +14,9 @@ function Header() {
                     <Link to="/packages"><FiBriefcase /> Packages</Link>
                     <Link to="/gallery"><FiCamera /> Gallery</Link>
                </nav>
-               <Outlet />
+               <main>
+                    <Outlet />
+               </main>
           </header>
      )
 }

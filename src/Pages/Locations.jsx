@@ -2,10 +2,10 @@ import '../Styles/Locations.css';
 
 const Locations = () => {
      return (
-          <div>
+          <div className="locations">
                <h1>Locations</h1>
           </div>
-     );
+     )
 }
 
 export default Locations;
