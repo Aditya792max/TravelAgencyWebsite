@@ -1,0 +1,44 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+}
+
+/* the above code make the header flex all over the top of the webpage Remember this*/
+
+header {
+     width: 100%;
+     background-color: black;
+     /* Only navbar black */
+     padding: 10px 0;
+     position: sticky;
+     top: 0;
+     z-index: 1000;
+     display: flex;
+     justify-content: right;
+}
+
+.header-content {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;
+     width: 100%;
+     margin-right: 200px;
+}
+
+.header-item a {
+     color: white;
+     /* Icons white */
+     font-size: 28px;
+     text-decoration: none;
+     transition: 0.3s ease;
+     padding-left: 20px;
+
+     margin-left: 2px;
+     margin-right: 2px;
+}
+
+.header-item a:hover {
+     color: #4eaaff;
+     transform: translateY(-3px);
+}

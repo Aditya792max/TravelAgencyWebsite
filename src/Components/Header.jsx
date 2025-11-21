@@ -2,22 +2,38 @@ import { Link, Outlet } from 'react-router-dom';
 import './Header.css'
 import { FiHome, FiUser, FiMapPin, FiCamera, FiMail, FiBriefcase } from 'react-icons/fi';
 
-
 function Header() {
      return (
-          <header>
-               <nav>
-                    <Link to="/"><FiHome /> Home</Link>
-                    <Link to="/about"><FiUser /> About</Link>
-                    <Link to="/locations"><FiMapPin /> Locations</Link>
-                    <Link to="/contact"><FiMail /> Contact</Link>
-                    <Link to="/packages"><FiBriefcase /> Packages</Link>
-                    <Link to="/gallery"><FiCamera /> Gallery</Link>
-               </nav>
+          <>
+               <header>
+                    <nav>
+                         <div className="header-content">
+                              <div className="header-item">
+                                   <Link to="/"><FiHome /></Link>
+                              </div>
+                              <div className="header-item">
+                                   <Link to="/about"><FiUser /></Link>
+                              </div>
+                              <div className="header-item">
+                                   <Link to="/locations"><FiMapPin /></Link>
+                              </div>
+                              <div className="header-item">
+                                   <Link to="/contact"><FiMail /></Link>
+                              </div>
+                              <div className="header-item">
+                                   <Link to="/packages"><FiBriefcase /></Link>
+                              </div>
+                              <div className="header-item">
+                                   <Link to="/gallery"><FiCamera /></Link>
+                              </div>
+                         </div>
+                    </nav>
+               </header>
+
                <main>
                     <Outlet />
                </main>
-          </header>
+          </>
      )
 }
 

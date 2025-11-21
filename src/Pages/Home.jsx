@@ -165,10 +165,26 @@ function Home() {
 
                     <div className="story-right">
                          <h2>Our Short Story</h2>
-                         <p>
-                              Our aim is to make global travel more personalized and seamless.
-                              We achieve this through a network of professional travel agents.
+                         <p className="short-story">
+                              We started our travel company after an unforgettable adventure—just the two of us wandering through wild, untouched mountains
+                              with nothing but our backpacks and an unreasonable amount of curiosity. Every trail felt like a new secret waiting to be discovered,
+                              and every sunrise reminded us how small we were compared to the world we had yet to explore. By the time we reached the last cliff,
+                              tired but wildly alive, we knew this feeling wasn’t meant to stay locked inside a memory.
+                              <br />
+                              So we turned that moment into a mission. We wanted people to
+                              feel the same thrill of stepping into the unknown, the same joy of discovering places that don’t
+                              show up on maps, and the same freedom that comes when the world becomes your playground
+                              <br />
+                              That mission grew into the travel company we run today—a promise to bring adventure,
+                              authenticity, and wonder to every journey we create.
+                              <br />
+                              And as we continued to explore new terrains, meet new people, and collect stories that didn’t
+                              fit inside a notebook, our vision grew even stronger. We realized travel isn’t just about destinations—it’s
+                              about moments that change you, challenges that shape you, and memories that stay long after the trip ends.
+                              With every tour we design and every journey we curate, we carry that belief forward, inviting others to discover the
+                              world the way we first did—with open hearts, restless feet, and a spirit that refuses to stop exploring.
                          </p>
+
                          <button>See More</button>
                     </div>
                </section >
